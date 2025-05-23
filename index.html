@@ -1,6 +1,133 @@
-<h1>Welcome to my programming home</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate-key="pageTitle">sslaia - Nias Language Apps</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#" data-translate-key="navBrand">sslaia Nias Apps</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span id="selectedLanguage">Language</span> <!-- This will be updated by JS -->
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="languageDropdown">
+                            <a class="dropdown-item lang-switcher" href="#" data-lang="nia">Nias (NIA)</a>
+                            <a class="dropdown-item lang-switcher" href="#" data-lang="id">Bahasa Indonesia (ID)</a>
+                            <a class="dropdown-item lang-switcher" href="#" data-lang="en">English (EN)</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-<p>I created this github pages, as more and more people ask me about what I have been doing. And as most of my projects are hosted on github, I think the github pages could be the best place to show what I am doing.</p>
+    <header class="jumbotron jumbotron-fluid text-center bg-light app-hero">
+        <div class="container">
+            <h1 class="display-4" data-translate-key="heroTitle">Empowering the Nias Language</h1>
+            <p class="lead" data-translate-key="heroLead">Discover my collection of Android applications dedicated to supporting and promoting the Nias language.</p>
+        </div>
+    </header>
 
-<p>Thank for checking in. More soon.</p>
+    <main class="container my-5">
+        <h2 class="text-center mb-4 section-title" data-translate-key="appsSectionTitle">Selected Applications</h2>
 
+        <div class="row">
+            <!-- App 1: Wikinias -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 app-card">
+                    <img src="images/wikinias-icon.png" class="card-img-top app-icon mx-auto mt-3" alt="Wikinias Icon">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Wikinias</h5> <!-- App names are usually not translated -->
+                        <p class="card-text" data-translate-key="wikiniasDesc">An all-in-one app for editing Nias Wikipedia, Nias Wiktionary, and Nias Wikibooks. Contribute to the Nias language digital presence easily.</p>
+                        <div class="mt-auto">
+                            <a href="https://play.google.com/store/apps/details?id=com.blogspot.wikinias" class="btn btn-success btn-block" target="_blank" rel="noopener noreferrer" data-translate-key="getOnPlayStore">Get on Google Play</a>
+                            <a href="https://github.com/sslaia/wikinias" class="btn btn-secondary btn-block mt-2" target="_blank" rel="noopener noreferrer" data-translate-key="getOnGithub">View and get the app on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- App 2: WikikamusNias -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 app-card">
+                    <img src="images/wikikamusnias-icon.png" class="card-img-top app-icon mx-auto mt-3" alt="WikikamusNias Icon">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">WikikamusNias</h5>
+                        <p class="card-text" data-translate-key="wikikamusNiasDesc">A dedicated app for editing and contributing to the Nias Wikikamus (Wiktionary). Help build a comprehensive Nias dictionary.</p>
+                        <div class="mt-auto">
+                            <a href="https://play.google.com/store/apps/details?id=com.blogspot.wikikamusnias" class="btn btn-success btn-block" target="_blank" rel="noopener noreferrer" data-translate-key="getOnPlayStore">Get on Google Play</a>
+                            <a href="https://github.com/sslaia/wikikamusnias" class="btn btn-secondary btn-block mt-2" target="_blank" rel="noopener noreferrer" data-translate-key="getOnGithub">View and get the app on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- App 3: Nias for AnySoftKeyboard -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 app-card">
+                    <img src="images/nias-ask-icon.png" class="card-img-top app-icon mx-auto mt-3" alt="Nias for AnySoftKeyboard Icon">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Nias for AnySoftKeyboard</h5>
+                        <p class="card-text" data-translate-key="niasAskDesc">A language pack providing Nias language support for the popular AnySoftKeyboard app. Type in Nias with ease on your Android device.</p>
+                        <div class="mt-auto">
+                            <a href="https://play.google.com/store/apps/details?id=com.anysoftkeyboard.languagepack.nias" class="btn btn-success btn-block" target="_blank" rel="noopener noreferrer" data-translate-key="getOnPlayStore">Get on Google Play</a>
+                            <a href="https://github.com/sslaia/AnySoftKeyboard" class="btn btn-secondary btn-block mt-2" target="_blank" rel="noopener noreferrer" data-translate-key="getOnGithub">View and get the app on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- App 4: Nias External Keyboard -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 app-card">
+                    <img src="images/nias-external-keyboard-icon.png" class="card-img-top app-icon mx-auto mt-3" alt="Nias External Keyboard Icon">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Nias External Keyboard</h5>
+                        <p class="card-text" data-translate-key="niasExtKbDesc">An add-on that enables Nias language layout and character support for physical external keyboards connected to Android devices.</p>
+                        <div class="mt-auto">
+                            <a href="https://play.google.com/store/apps/details?id=com.blogspot.niasexternalkeyboard" class="btn btn-success btn-block" target="_blank" rel="noopener noreferrer" data-translate-key="getOnPlayStore">Get on Google Play</a>
+                            <a href="https://github.com/sslaia/nias-external-keyboard" class="btn btn-secondary btn-block mt-2" target="_blank" rel="noopener noreferrer" data-translate-key="getOnGithub">View and get the app on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-5">
+
+        <section class="about-me text-center mb-5">
+            <h2 data-translate-key="aboutMeTitle">About Me</h2>
+            <p data-translate-key="aboutMeP1">
+                I am sslaia, a developer passionate about preserving and promoting the Nias language through technology.
+                These applications are my contribution to making Nias more accessible in the digital world.
+            </p>
+            <p>
+                <a href="https://github.com/sslaia" class="btn btn-dark" target="_blank" rel="noopener noreferrer" data-translate-key="myGithubProfile">My GitHub Profile</a>
+            </p>
+        </section>
+    </main>
+
+    <footer class="text-center py-4 bg-dark text-white">
+        <p>© <span id="currentYear"></span> sslaia. <span data-translate-key="footerRights">All rights reserved.</span></p>
+        <p data-translate-key="footerSubtitle">Nias Language App Showcase</p>
+    </footer>
+
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="lang.js"></script> <!-- Our new language script -->
+</body>
+</html>

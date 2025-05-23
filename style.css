@@ -1,0 +1,100 @@
+body {
+    padding-top: 56px; /* For fixed navbar */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.app-hero {
+    background-color: #e9ecef; /* A slightly different shade for the hero */
+    padding: 4rem 2rem;
+    margin-bottom: 0; /* Remove default jumbotron margin if any */
+    color: #333;
+}
+
+.app-hero h1 {
+    font-weight: 300;
+    color: #007bff; /* Primary color for heading */
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff;
+}
+
+.section-title {
+    color: #343a40; /* Dark gray for section titles */
+    margin-bottom: 2rem;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #007bff; /* Primary color underline */
+    margin: 8px auto 0;
+}
+
+.app-card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem; /* Softer corners */
+}
+
+.app-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.app-icon {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    object-fit: contain; /* Or 'cover' if you prefer, but contain is safer for icons */
+    padding: 10px;
+    /* background-color: #f0f0f0;
+    border-radius: 10px;
+    margin-bottom: 15px; */
+}
+
+.card-title {
+    color: #0056b3; /* A darker shade of blue for card titles */
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: #555;
+    flex-grow: 1; /* Makes text take available space pushing buttons down */
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+footer {
+    padding: 2rem 0;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
