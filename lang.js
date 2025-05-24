@@ -1,10 +1,10 @@
 const translations = {
     en: {
-        pageTitle: "sslaia - Nias Language Apps",
-        navBrand: "sslaia's Nias Apps",
+        pageTitle: "Nias Language Apps",
+        navBrand: "Nias Apps",
         selectedLanguageLabel: "English",
         heroTitle: "Set the Knowledge Free in Nias Language",
-        heroLead: "Discover my collection of Android applications dedicated to supporting and promoting the Nias language.",
+        heroLead: "A collection of selected Android applications dedicated to supporting and promoting the Nias language.",
         appsSectionTitle: "Selected Applications",
         wikiniasDesc: "An all-in-one app for editing Nias Wikipedia, Nias Wiktionary, and Nias Wikibooks. Contribute to the Nias language digital presence easily.",
         wikikamusNiasDesc: "A dedicated app for editing and contributing to the Nias Wikikamus (Wiktionary). Help build a comprehensive Nias dictionary.",
@@ -19,11 +19,11 @@ const translations = {
         footerSubtitle: "Nias Language App Showcase"
     },
     id: {
-        pageTitle: "sslia - Aplikasi Bahasa Nias",
-        navBrand: "Aplikasi Bahasa Nias sslaia",
+        pageTitle: "Aplikasi Bahasa Nias",
+        navBrand: "Aplikasi Bahasa Nias",
         selectedLanguageLabel: "Indonesia",
         heroTitle: "Membebaskan Pengetahuan dalam Bahasa Nias",
-        heroLead: "Temukan koleksi aplikasi Android saya yang didedikasikan untuk mendukung dan mempromosikan bahasa Nias.",
+        heroLead: "Koleksi aplikasi Android pilihan yang didedikasikan untuk mendukung dan mempromosikan bahasa Nias.",
         appsSectionTitle: "Aplikasi Pilihan",
         wikiniasDesc: "Aplikasi lengkap untuk menyunting Wikipedia, Wiktionary, dan Wikibooks bahasa Nias. Berkontribusi dengan mudah untuk kehadiran digital bahasa Nias.",
         wikikamusNiasDesc: "Aplikasi khusus untuk menyunting dan berkontribusi pada Wikikamus Nias. Bantu membangun kamus Nias yang komprehensif.",
@@ -38,11 +38,11 @@ const translations = {
         footerSubtitle: "Pameran Aplikasi Bahasa Nias"
     },
     nia: {
-        pageTitle: "sslia - Aplikasi li Niha",
-        navBrand: "Aplikasi ba li Niha nifa'anö sslaia",
+        pageTitle: "Aplikasi li Niha",
+        navBrand: "Aplikasi ba li Niha",
         selectedLanguageLabel: "Nias",
-        heroTitle: "Mama'anö Fangi'ila ba Li Niha",
-        heroLead: "So ba da'a mato ha'uga aplikasi soguna ba wanura li Niha yaŵa ba wiki.",
+        heroTitle: "Mama'anö Li Niha ba Mbolokha Digital",
+        heroLead: "So ba da'a aplikasi amilita soguna ba wanura li Niha yaŵa ba wiki.",
         appsSectionTitle: "Aplikasi Amilita",
         wikiniasDesc: "Aplikasi soguna ba wama'anö sura yaŵa ba Wikipedia, Wikikamus awö Wikibuku ba li Niha.",
         wikikamusNiasDesc: "Aplikasi soguna ba wanura yaŵa ba Wikikamus Nias.",
@@ -53,7 +53,7 @@ const translations = {
         aboutMeTitle: "Sanandrösa khögu",
         aboutMeP1: "sslaia ndra'o. Ohitö dödögu ena'ö tedou wama'anö li Niha ba Internet. Faoma ngawalö aplikasi andre, abölö aoha khö niha wamaigi ba ba wombaso ngawalö zura ba li Niha si so yaŵa ba Internet.",
         myGithubProfile: "Profil GitHub khögu",
-        footerRights: "Terorogö hak cipta.",
+        footerRights: "Telumö'ö hak cipta.",
         footerSubtitle: "Fama'oli Aplikasi ba li Niha"
     }
 };
