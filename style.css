@@ -62,7 +62,8 @@ body {
 }
 
 .card-title {
-    color: #0056b3; /* A darker shade of blue for card titles */
+    color: #0056b3;
+     text-align: center; /* A darker shade of blue for card titles */
 }
 
 .card-text {
