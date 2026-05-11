@@ -1,10 +1,10 @@
 const translations = {
     en: {
-        pageTitle: "Wiki Volunteer Tools",
-        navBrand: "Wiki Tools",
+        pageTitle: "Nusa Apps - Supporting wiki volunteers in Indonesia",
+        navBrand: "Nusa Apps",
         selectedLanguageLabel: "English",
         heroTitle: "Empowering Wiki Volunteers",
-        heroLead: "A collection of tools and apps to support volunteers writing on various Wikimedia projects in local languages.",
+        heroLead: "A collection of tools and apps to support volunteers writing on various Wikimedia projects in local languages in Indonesia.",
         commonAppsSectionTitle: "Common Applications",
         niasAppsSectionTitle: "Nias Language Apps",
         wikinusaDesc: "A do-it-all app for Wikipedia, Wiktionary and Wikibooks. Perfect for those who works regularly on several wiki projects.",
@@ -24,11 +24,11 @@ const translations = {
         footerSubtitle: "Wiki Volunteer Tools Showcase"
     },
     id: {
-        pageTitle: "Perangkat Bagi Relawan Wiki",
-        navBrand: "Perangkat Wiki",
+        pageTitle: "Aplikasi Nusa - Mendukung relawan wiki di Indonesia",
+        navBrand: "Aplikasi Nusa",
         selectedLanguageLabel: "Indonesia",
         heroTitle: "Memberdayakan Relawan Wiki",
-        heroLead: "Koleksi alat dan aplikasi untuk mendukung relawan yang menulis di berbagai proyek Wikimedia dalam bahasa daerah.",
+        heroLead: "Koleksi alat dan aplikasi untuk mendukung relawan yang menulis di berbagai proyek Wikimedia dalam bahasa daerah di Indonesia.",
         commonAppsSectionTitle: "Aplikasi Umum",
         niasAppsSectionTitle: "Aplikasi Pendukung Bahasa Nias",
         wikinusaDesc: "Aplikasi yang bisa mengakses Wikipedia, Wikikamus dan Wikibuku. Bagus bagi mereka yang suka gonta-ganti proyek wiki.",
@@ -48,11 +48,11 @@ const translations = {
         footerSubtitle: "Pameran Alat Relawan Wiki"
     },
     nia: {
-        pageTitle: "Fangöna Khö Ndra Relawan Wiki",
-        navBrand: "Fakake Wiki",
+        pageTitle: "Aplikasi Nusa - Fangöna Khö Ndra Relawan Wiki ba Indonesia",
+        navBrand: "Aplikasi Nusa",
         selectedLanguageLabel: "Nias",
         heroTitle: "Fanolo Khö Relawan Wiki",
-        heroLead: "So ba da'a ngawalö aplikasi si tobali fanolo khö ndra relawan sanura ba ngawalö proyek Wikimedia ba li niha.",
+        heroLead: "So ba da'a ngawalö aplikasi si tobali fanolo khö ndra relawan sanura ba ngawalö proyek Wikimedia ba ngawalö li ba Indonesia.",
         commonAppsSectionTitle: "Aplikasi Sifagölötö",
         niasAppsSectionTitle: "Aplikasi Sondrou'ö Li Niha",
         wikinusaDesc: "Aplikasi si tola mangohalöŵögöi Wikipedia, Wikikamus ba Wikibuku. Fagöna sibai khöra, ya'ira somasi mamalali-lali proyek wiki.",
