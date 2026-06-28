@@ -9,7 +9,7 @@ const translations = {
         wikinusaDesc: "A do-it-all app for Wikipedia, Wiktionary and Wikibooks. Perfect for those who works regularly on several wiki projects.",
         nusaKeyboardDesc: "A comprehensive keyboard featuring spelling checks, layout support, and wiki code tools for Nias and other regional languages in Indonesia. Built as a unified modern successor to Nias Keyboard and Nias for AnySoftKeyboard.",
         niasExtKbDesc: "An add-on that enables Nias language layout and character support for physical external keyboards connected to Android devices.",
-        towitowiDesc: "An simple but powerful note-taking app that can also be your daily journal app. You are in control, however if you need a little lift, just ask Gemini AI for little help, either to restructure your fleeting thought, polish your long notes, or craft social media posts.",
+        towitowiDesc: "A simple but powerful note-taking app that can also be your daily journal app. You are in control, however if you need a little lift, just ask Gemini AI for little help, either to restructure your fleeting thought, polish your long notes, or craft social media posts.",
         legacySectionTitle: "Guard of Honor",
         legacySectionDesc: "These apps have served many users over the years (for instance, the WikiNias app is still actively used by many). Although they are no longer available on the Google Play Store for new users, their open-source code remains available on GitHub for the community.",
         activeUsersBadge: "Active Users",
